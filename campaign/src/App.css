@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Buttons and cards shadow effect */
+button {
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Image hover effect */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Smooth section scroll */
+html {
+  scroll-behavior: smooth;
+}
