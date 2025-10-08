@@ -80,12 +80,13 @@ function App() {
         viewport={{ once: true }}
         variants={fadeInUp}
       >
-        <motion.img 
-          src="/profile.jpg"  // ✅ reference from public folder
-          alt="Aditi Patil" 
-          className="w-48 h-48 rounded-full mx-auto md:mx-0 border-4 border-green-400 shadow-lg"
-          whileHover={{ scale: 1.05, rotate: 2 }}
-        />
+       <motion.div
+        className="w-48 h-48 flex items-center justify-center rounded-full bg-gradient-to-br from-green-400 to-green-600 text-white text-6xl font-bold mx-auto md:mx-0 border-4 border-green-400 shadow-lg"
+         whileHover={{ scale: 1.05, rotate: 2 }}
+      >
+   A
+   </motion.div>
+
         <div className="md:ml-10 mt-6 md:mt-0">
           <h2 className="text-3xl font-semibold mb-4 text-green-400">About Me</h2>
           <p className="text-gray-300 leading-relaxed">
